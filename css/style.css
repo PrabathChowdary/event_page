@@ -145,7 +145,9 @@ h1{
   .tabs input[type="radio"]:checked + label + .tab {
     display: block;
   }
-   
+  /* .mob-version{
+    display: none;
+  } */
   @media (max-width: 400px) {
     .tabs .tab,
     .tabs label {
@@ -156,4 +158,11 @@ h1{
       width: 100%;
       margin-left: 50px;
     }
+/* 
+    .pc-version{
+      display: none;
+    }
+    .mob-version{
+      display: block;
+    } */
   }
